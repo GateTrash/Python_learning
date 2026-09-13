@@ -3,6 +3,7 @@ This is my way in Python developt. I am a junior Python developer
 i made several programs:
 1. Age registration(if age more 18 access granted. Else access denied)
 2. Simple calculator(support operation +,-,*,/)
+<<<<<<< HEAD
 3. Minigame "guess the number" cold-hot(interactive shooce the number at {} to {}.)
 4. Program for find even or odd numbers
 5. Grade calculator (A>90; B>70; C>50; S<50)
@@ -13,3 +14,5 @@ i made several programs:
 10. Find classification entered number
 11. Program for print bumber at 1 to 100
 12. Program for convert temperature (F to C or C to F)
+=======
+>>>>>>> 1ccdfb84e10af3ec901086754dd8c65428c4f1cb
