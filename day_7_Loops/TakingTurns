@@ -1,0 +1,1 @@
+entered_number = int(input("Please, enter the limit number: "))

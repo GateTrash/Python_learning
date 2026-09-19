@@ -1,0 +1,9 @@
+entred_number = int(input("Please, enter the number: "))
+mult_number1 = 1
+mult_number2 = 1
+while mult_number1 <= entred_number:
+    while mult_number2 <= entred_number:
+        print(f"{mult_number1} * {mult_number2} = {mult_number1 * mult_number2}")
+        mult_number2 += 1
+    mult_number1 += 1
+    mult_number2 = 1
