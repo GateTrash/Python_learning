@@ -8,4 +8,3 @@ while True:
         storage += word + " "
         another_words += 1
 print(f"Amount another words: {another_words}")
-print(storage)
