@@ -1,7 +1,7 @@
 # Найди все уникальные пары (имя, пароль). +
 # Найди множество всех использованных паролей. +
 # Определи, сколько разных паролей использовалось. +
-# Найди пароли, которые использовали несколько разных пользователей.+
+# Найди пароли, которые использовали несколько разных пользователей. +
 # Найди пользователей, чьи записи повторяются полностью.+
 list_passwords= [
     ("Alex", "python123"),
@@ -11,10 +11,10 @@ list_passwords= [
     ("Tom", "qwerty"),
     ("Alex", "python123")
 ]
-users = [] #список без повторений
+users = [] 
 passwords = set() 
-repeat_passwords = [] #одинаковые пароли
-repeat_users = [] #Одинаковые пользователи/повторяющиеся записи
+repeat_passwords = [] 
+repeat_users = [] 
 for item in list_passwords:
     if item[1] in passwords and item[1] not in repeat_passwords: 
         repeat_passwords.append(item[1])
