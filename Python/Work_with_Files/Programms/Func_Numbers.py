@@ -1,6 +1,6 @@
 #ф-ция возвращает наибольшее число в файле
 def largest():
-    with open("files/numbers.txt", "r") as file: 
+    with open("Python/Work_with_Files/files/numbers.txt", "r") as file: 
         text = file.read()
         strings = text.split()
         numbers = []
