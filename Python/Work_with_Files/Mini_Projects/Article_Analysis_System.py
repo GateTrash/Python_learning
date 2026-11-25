@@ -12,18 +12,11 @@
 # - Отчёт должен содержать дату и время анализа.
 from pathlib import Path
 file_path = Path("/Users/a0000/Developer/Git_Repositories/Python_learning/Python/Work_with_Files/files/Article.txt")
-print(file_path.name)
-print(file_path.stem)
-print(file_path.suffixes)
-print(file_path.parent)
-try:
-    if file_path.dir():
-        print("this directory")
-except:
-    print("Error; This isn't directory")
-if file_path.exists():
-    if file_path.is_file: print("this is file")
-    print("file found!")
-    #with open(file_path, "a") as file:
-else: print("File not found")
+
+with open(file_path, "r+", encoding="utf8") as file:
+    text = file.read()
+    text.upper()
+    print(f"text: {text}")
+    words = text.split()
+    print(f"Words: {words}")
     
